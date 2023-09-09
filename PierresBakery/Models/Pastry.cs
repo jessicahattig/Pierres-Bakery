@@ -8,8 +8,9 @@ namespace PierresBakery.Models
 
         public double CalculateCost()
         {
-            int set = Quantity;
-            double cost = set * 2;
+            int setsOfFour = Quantity / 4;
+            int remaining = Quantity % 4;
+            double cost = (setsOfFour * 3 + remaining) * 2;
             return cost;
         }
     }
