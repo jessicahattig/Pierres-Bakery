@@ -27,7 +27,7 @@ namespace PierresBakery.Tests
     }
     
     [TestMethod]
-    public void CalculateCost_Discount_Quantity3()
+    public void CalculateCost_Discount_Quantity4()
     {
       //Arrange
       Pastry pastry = new Pastry { Quantity = 3};
