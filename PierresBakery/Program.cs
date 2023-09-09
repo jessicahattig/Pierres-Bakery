@@ -21,9 +21,16 @@ namespace PierresBakery
             int pastryAmount = int.Parse(stringNumPastries);
 
             double totalCost = CalculateTotalCost(breadAmount, pastryAmount);
-
-            Console.WriteLine($"You've ordered {breadAmount} loaves of bread and {pastryAmount} pastries.");
-            Console.WriteLine($"Your total cost is ${totalCost:F2}. Enjoy your order!");
+            
+            if (totalCost == 0)
+            {
+              Console.WriteLine("You've not selected any pastries or loaves of bread for this order. We hope to see you another time!");
+            }
+            else
+            {
+              Console.WriteLine($"You've ordered {breadAmount} loaves of bread and {pastryAmount} pastries.");
+              Console.WriteLine($"Your total cost is ${totalCost:F2}. Enjoy your order!");
+            }
         }
 
         static double CalculateTotalCost(int breadAmount, int pastryAmount)
@@ -34,7 +41,6 @@ namespace PierresBakery
             double breadCost = bread.CalculateCost();
             double pastryCost = pastry.CalculateCost();
 
-            // Calculate the total cost with any discounts
             double totalCost = breadCost + pastryCost;
 
             return totalCost;
