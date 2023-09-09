@@ -64,5 +64,19 @@ namespace PierresBakery.Tests
       //Assert
       Assert.AreEqual(20.0, cost, 0.001);
     }
+
+
+  [TestMethod]
+    public void CalculateCost_Buy6loaves()
+    {
+      //Arrange
+      Bread bread = new Bread { Quantity = 6 };
+
+      //Act
+      double cost = bread.CalculateCost();
+
+      //Assert
+      Assert.AreEqual(20.0, cost, 0.001);
+    }
   }
 }
