@@ -10,7 +10,7 @@ namespace PierresBakery.Tests
   {
     public void Dispose()
     {
-      //ClearAll();
+      //Clears
     }
 
     [TestMethod]
