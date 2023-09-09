@@ -30,7 +30,7 @@ namespace PierresBakery.Tests
     public void CalculateCost_Discount_Quantity4()
     {
       //Arrange
-      Pastry pastry = new Pastry { Quantity = 3};
+      Pastry pastry = new Pastry { Quantity = 4};
 
       //Act
       double cost = pastry.CalculateCost();
