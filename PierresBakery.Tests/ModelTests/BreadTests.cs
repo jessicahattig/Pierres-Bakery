@@ -17,10 +17,10 @@ namespace PierresBakery.Tests
     public void CalculateCost_NoDiscount()
     {
       //Arrange
-      Pastry pastry = new Pastry { Quantity = 2 };
+      Bread bread = new Bread { Quantity = 2 };
 
       //Act
-      double cost = pastry.CalculateCost();
+      double cost = bread.CalculateCost();
 
       //Assert
       Assert.AreEqual(10.0, cost, 0.001);
