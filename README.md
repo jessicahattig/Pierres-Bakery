@@ -26,15 +26,15 @@ _Welcome to Pierre's Bakery Console Application! This C# console application ena
 
 ## Setup
 
-* _1. Clone this repository._
-* _2. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "PeirresBakery"._
-* _3. In the command line, run `dotnet build` to compile this console app without running it._
-* _4. In the command line, run the command `dotnet run` to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal._
+_1. Clone this repository._
+_2. Open your terminal (e.g., Terminal or GitBash) and navigate to this project's production directory called "PeirresBakery"._
+_3. In the command line, run `dotnet build` to compile this console app without running it._
+_4. In the command line, run the command `dotnet run` to compile and execute the console application. Since this is a console application, you'll interact with it through text commands in your terminal._
 
 ## How to Run Tests
 
-* _1. After installation is completed, open your shell (e.g., Terminal or GitBash) and navigate to this project's test directory called "PierresBakery.Tests"._
-* _2. Run `dotnet test` in the command line to invoke MSTest to run tests. The results of running the tests will appear in the terminal._
+_1. After installation is completed, open your shell (e.g., Terminal or GitBash) and navigate to this project's test directory called "PierresBakery.Tests"._
+_2. Run `dotnet test` in the command line to invoke MSTest to run tests. The results of running the tests will appear in the terminal._
 
 ## Known Bugs
 
