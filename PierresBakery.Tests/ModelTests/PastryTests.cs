@@ -25,5 +25,18 @@ namespace PierresBakery.Tests
       //Assert
       Assert.AreEqual(2.0, cost, 0.001);
     }
+    
+    [TestMethod]
+    public void CalculateCost_Discount_Quantity3()
+    {
+      //Arrange
+      Pastry pastry = new Pastry { Quantity = 3};
+
+      //Act
+      double cost = pastry.CalculateCost();
+
+      //Assert
+      Assert.AreEqual(5.0, cost, 0.001);
+    }
   }
 }
