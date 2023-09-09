@@ -27,7 +27,7 @@ namespace PierresBakery.Tests
     }
     
     [TestMethod]
-    public void CalculateCost_Discount_Quantity4()
+    public void CalculateCost_Buy3Get1Free()
     {
       //Arrange
       Pastry pastry = new Pastry { Quantity = 4};
@@ -36,7 +36,7 @@ namespace PierresBakery.Tests
       double cost = pastry.CalculateCost();
 
       //Assert
-      Assert.AreEqual(5.0, cost, 0.001);
+      Assert.AreEqual(6.0, cost, 0.001);
     }
   }
 }
