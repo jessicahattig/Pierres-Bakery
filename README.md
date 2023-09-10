@@ -10,7 +10,7 @@
 * _Git_
 * _C#_
 * _.NET Core/.NET 5_
-* _xUnit_
+* _MSTest_
 * _Command Line (dotnet CLI)_
 * _Object-Oriented Programming (OOP)_
 * _Console Application_
